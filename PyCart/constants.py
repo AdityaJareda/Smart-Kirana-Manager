@@ -18,8 +18,9 @@ category_options={
 
 
 member_discount=0.1
-new_user_discount=0.05
+first_time_user_discount=0.05
 guest_discount=0.0
+user_file = "PyCart/data/members.txt"
 
-welcome_msg="--------Welcome To PyCart!--------"
-exit_msg="--------Thank You For Shopping With Us!--------"
+welcome_msg="--------Welcome To PyCart!--------\n"
+exit_msg="\n--------Thank You For Shopping With Us!--------"
