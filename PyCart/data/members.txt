@@ -1,1 +1,2 @@
-# USER DETAILS
+testuser1, pass321, first_time
+testuser, pass123, first_time
