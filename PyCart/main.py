@@ -9,6 +9,17 @@ def display_menu():
         print(f'{key}. {value}')
 
 def run():
+
+    print('------- Login or Register -------\n')
+    user_type=member.login()
+
+    if user_type is None:
+        print('------- Login Failed! Exiting... -------')
+        return
+
+    discount=member.apply_discount(user_type)
+    print(f'You are logged in as {user_type.replace("_", " ").title()} and you have a {discount*100}% discount on all items.\n')
+
     while True:
         display_menu()
         choice=input('Enter your choice: ')
