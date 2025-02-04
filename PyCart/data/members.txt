@@ -1,2 +1,2 @@
-testuser1, pass321, first_time
-testuser, pass123, first_time
+testuser,pass123,member,0
+testuser1,pass321,guest,1
